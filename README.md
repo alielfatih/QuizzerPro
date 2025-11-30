@@ -1,5 +1,4 @@
-# 📘 Quizzer Pro — Intelligent Medical MCQ Trainer
-
+# 📘 Quizzer Pro
 Quizzer Pro is a modern, AI-augmented study tool designed for mastering medical MCQs using active recall, adaptive spaced repetition (FSRS), and performance-based difficulty adjustment.
 
 This README provides complete documentation on how to use the app, manage decks, create JSON files, and understand the UI.
@@ -43,16 +42,11 @@ This README provides complete documentation on how to use the app, manage decks,
 1. Download **Quizzer Pro.exe** from the release page.
 2. Place it anywhere (portable).
 3. Double-click to run.
-4. When running the `.py` version manually:
-   ```bash
-   python "Quizzer Pro.py"
-   ```
 
 The app uses:
 - Python 3.10+ (if running source)
 - CustomTkinter
 
-The `.exe` version includes all dependencies.
 
 ---
 
