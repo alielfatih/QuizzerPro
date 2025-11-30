@@ -82,7 +82,7 @@ We may update this Privacy Policy occasionally. Any changes will be reflected in
 
 10. Contact Us
 
-For questions or concerns about this Privacy Policy, please open an issue on the Quizzer Pro GitHub repository or contact us at [your-email@example.com].
+For questions or concerns about this Privacy Policy, please open an issue on the Quizzer Pro GitHub repository or contact us at [alielfatih@hotmail.com].
 
 11. License
 
