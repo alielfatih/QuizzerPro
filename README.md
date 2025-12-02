@@ -6,7 +6,7 @@ This README provides complete documentation on how to use the app, manage decks,
 ---
 
 User Guide
-  [User Guide](docs/'User_Guide_Json.md').
+  [User Guide](docs/User_Guide_Json.md).
 ---
 
 # 🚀 Features
