@@ -6,7 +6,7 @@ This README provides complete documentation on how to use the app, manage decks,
 ---
 
 ## User Guide
-  [User Guide](docs/User_Guide_Json.md).
+  [User Guide](docs/User_Guide.md).
   ---
     Here you will find how to create your own json file manually,
     or you can create the file struture using and AI or our coming file genertor[feature]:
