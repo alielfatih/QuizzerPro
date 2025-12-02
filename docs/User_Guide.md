@@ -1,18 +1,32 @@
-📘 Deck Creation Guide for Quizzer Pro
-Quizzer Pro allows you to load your own MCQ decks using simple .json files.
-Follow this guide to create your own deck quickly and correctly.
-________________________________________
-✅ 1. Basic Deck Structure
+# 📘 Deck Creation Guide for **Quizzer Pro**
+
+Quizzer Pro allows you to load your own MCQ decks using simple `.json`
+files.\
+Follow this guide to create your deck quickly and correctly.
+
+------------------------------------------------------------------------
+
+## ✅ 1. Basic Deck Structure
+
 Every deck must be a JSON array containing multiple questions:
+
+``` json
 [
   { ... },
   { ... },
   { ... }
 ]
+```
+
 Each item in the array is one MCQ question.
-________________________________________
-✅ 2. Required Format for Each Question
+
+------------------------------------------------------------------------
+
+## ✅ 2. Required Format for Each Question
+
 Each MCQ must follow this exact structure:
+
+``` json
 {
   "question": "Your question text here?",
   "options": ["Option A", "Option B", "Option C", "Option D"],
@@ -24,31 +38,54 @@ Each MCQ must follow this exact structure:
     "Option D": "Explanation for Option D"
   }
 }
-Field rules
-•	"question" → A string (the question text)
-•	"options" → Exactly 4 options, in a list
-•	"answer" → Must exactly match one of the options (case-sensitive)
-•	"explanations" → Each option must appear again as a key with its explanation
-________________________________________
-⚠ Important Notes
+```
+
+### **Field Rules**
+
+-   **`question`** → A string (the question text)\
+-   **`options`** → Exactly **4** options, in a list\
+-   **`answer`** → Must *match exactly* one of the options
+    (case-sensitive)\
+-   **`explanations`** → Must list all four options again as keys, each
+    with an explanation
+
+------------------------------------------------------------------------
+
+## ⚠ Important Notes
+
 To avoid errors:
-1. Options must match exactly
+
+### **1. Options must match exactly**
+
 If you write:
-"Option A"
-then the explanations must also use:
-"Option A"
-Case, spaces, punctuation must match.
-2. Don’t add extra fields
-Stick exactly to:
-•	question
-•	options
-•	answer
-•	explanations
-3. Make sure your JSON is valid
-Use a validator such as:
+
+    "Option A"
+
+then the explanation must also use:
+
+    "Option A"
+
+Case, spaces, and punctuation must match.
+
+### **2. Don't add extra fields**
+
+Use only these fields:
+
+-   `question`\
+-   `options`\
+-   `answer`\
+-   `explanations`
+
+### **3. Ensure your JSON is valid**
+
+Use a validator like:\
 https://jsonlint.com/
-________________________________________
-📄 3. Example Deck with Two Questions
+
+------------------------------------------------------------------------
+
+## 📄 3. Example Deck with Two Questions
+
+``` json
 [
   {
     "question": "What is the main function of hemoglobin?",
@@ -73,17 +110,23 @@ ________________________________________
     }
   }
 ]
-________________________________________
-💾 4. Saving Your Deck
-1.	Create a new text file
-2.	Paste your JSON deck
-3.	Save as:
-mydeck.json
-4.	Place it anywhere you like — the app can open it using Load Deck.
-________________________________________
-🚀 5. Tips for Better MCQs
-•	Write options that are plausible but incorrect
-•	Keep explanations short, clear, and focused
-•	Avoid repeating the same explanation across many options
-•	Make the correct answer unambiguous
+```
 
+------------------------------------------------------------------------
+
+## 💾 4. Saving Your Deck
+
+1.  Create a new text file\
+2.  Paste your JSON deck\
+3.  Save it as:\
+    **`mydeck.json`**\
+4.  Load it in the app using **Load Deck**
+
+------------------------------------------------------------------------
+
+## 🚀 5. Tips for Better MCQs
+
+-   Write options that are plausible but incorrect\
+-   Keep explanations short, clear, and focused\
+-   Avoid repeating the same explanation across many options\
+-   Make the correct answer unambiguous
