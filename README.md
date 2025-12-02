@@ -13,8 +13,8 @@ This README provides complete documentation on how to use the app, manage decks,
     you us an AI to convert your preexist MCQs like thi.
     
     ```
-      use the rules in this destination https://bit.ly/4ixPq08,
-      then create x mcqs follwin those rules.
+      use the rules in this destination https://gist.githubusercontent.com/alielfatih/90b370a0c06cd6527df48e7393537735/raw/e928611858f05e5f56994b61137ffa7b3b66effc/QuizzerPro_json_rules.md,
+      then create x mcqs following those rules.
     ```
     then just copy & paste them into text file and save it json format
   
