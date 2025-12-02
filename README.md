@@ -17,6 +17,7 @@ This README provides complete documentation on how to use the app, manage decks,
       then create x mcqs following those rules.
     ```
     then just copy & paste them into text file and save it json format
+    then open the app and chose load JSON
   
 
 # 🚀 Features
