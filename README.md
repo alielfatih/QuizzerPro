@@ -5,9 +5,19 @@ This README provides complete documentation on how to use the app, manage decks,
 
 ---
 
-User Guide
+## User Guide
   [User Guide](docs/User_Guide_Json.md).
----
+  ---
+    Here you will find how to create your own json file manually,
+    or you can create the file struture using and AI or our coming file genertor[feature]:
+    you us an AI to convert your preexist MCQs like thi.
+    
+    ```
+      use the rules in this destination https://bit.ly/4ixPq08,
+      then create x mcqs follwin those rules.
+    ```
+    then just copy & paste them into text file and save it json format
+  
 
 # 🚀 Features
 
